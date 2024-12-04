@@ -2,11 +2,9 @@
 #define EJERCICIO4_H
 
 namespace Ciencia {
-
-class Ejercicio4 {
-
-};
-
-} // Ciencia
+    namespace Fisica {
+        double calcularEnergia(double masa);
+    }
+}
 
 #endif //EJERCICIO4_H

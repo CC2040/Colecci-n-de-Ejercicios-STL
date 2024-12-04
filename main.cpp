@@ -2,6 +2,7 @@
 #include "Ejercicio1/Ejercicio1.h"
 #include "Ejercicio2/geometria.h"
 #include "Ejercicio3/Ejercicio3.h"
+#include "Ejercicio4/Ejercicio4.h"
 
 
 int main() {
@@ -18,6 +19,8 @@ int main() {
     geometria::circulo c(5);
     std::cout << "Area: " << c.calcularArea() << std::endl;
     std::cout << "Perimetro: " << c.calcularPerimetro() << std::endl;
-
+    /*Parte ejercicio 4*/
+    std::cout << "Parte Ejercicio 4" << std::endl;
+    std::cout << "Energia: " << Ciencia::Fisica::calcularEnergia(10) << std::endl;
     return 0;
 }
