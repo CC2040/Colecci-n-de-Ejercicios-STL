@@ -52,8 +52,6 @@ namespace Geometria {
         return 3.14 * radio * radio;
     }
 }
-main.cpp:
-
 
 int main() {
     std::cout << "Area del triangulo: " << Geometria::calcularAreaTriangulo(5, 3) << std::endl;
