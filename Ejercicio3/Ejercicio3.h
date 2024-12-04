@@ -1,16 +1,17 @@
-//
-// Created by carlo on 04/12/2024.
-//
-
 #ifndef EJERCICIO3_H
 #define EJERCICIO3_H
 
-namespace Geometria {
+namespace geometria {
 
-class Ejercicio3 {
+    class circulo {
+    private:
+        double radio;
+    public:
+        circulo(double r) : radio(r) {}
+        double calcularArea() const;
+        double calcularPerimetro() const;
 
-};
-
-} // Geometria
+    };
+} // geometria
 
 #endif //EJERCICIO3_H

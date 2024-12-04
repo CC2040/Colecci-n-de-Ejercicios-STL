@@ -1,8 +1,13 @@
-//
-// Created by carlo on 04/12/2024.
-//
-
 #include "Ejercicio3.h"
 
-namespace Geometria {
-} // Geometria2
+
+namespace geometria {
+
+    double circulo::calcularArea() const{
+
+        return 3.14 * radio * radio;
+    }
+    double circulo::calcularPerimetro() const {
+        return 2 * 3.14 * radio;
+    }
+} // geometria
